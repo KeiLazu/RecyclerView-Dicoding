@@ -29,6 +29,10 @@ public class ListPresidentAdapter extends RecyclerView.Adapter<ListPresidentAdap
         this.listPresident = listPresident;
     }
 
+    public ListPresidentAdapter(Context context) {
+        this.context = context;
+    }
+
     @NonNull
     @Override
     public ListPresidentAdapter.CategoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
